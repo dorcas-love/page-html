@@ -1,0 +1,100 @@
+.document{
+    width:  100%;
+    height: 120vh
+
+}
+
+
+
+.entete{
+    background-color: rgb(99, 90, 90);
+    text-align: center;
+    padding-top: 40px;
+    width: 100%;
+    height:30%;
+    color: white;
+    
+    
+}
+span{
+    color: orangered;
+}
+.ligne{
+    background-color: orangered;
+    width: 100%;
+    height:5px;
+    
+
+}
+h3{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
+    
+
+}
+.corps::before{
+    position: absolute;
+ background-image: url('dossierImage/depositphotos_379023632-stock-photo-image-male-creative-graphic-designer.jpg');
+filter: blur(4px);
+z-index: -1;
+padding: 20px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%; 
+    text-align: center;
+    content: '';
+    top: 0;
+    left: 0;
+}
+
+.corps{
+    background-image: url('dossierImage/depositphotos_379023632-stock-photo-image-male-creative-graphic-designer.jpg');
+    padding: 20px;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%; 
+    text-align: center;
+    filter: blur(0px);
+    z-index: -1;
+
+}
+.pieds{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    font-size: 16px;
+    background-color: rgb(99, 90, 90);
+   
+    
+}
+input[type="text"],
+button{
+width: 800px;
+padding: 10px;
+margin-top: 5px;
+font-size: 16px;
+color: white;
+ 
+}
+button{
+    width: 825px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    background-color: orangered;
+        
+
+}
+p{
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+}
+
+
